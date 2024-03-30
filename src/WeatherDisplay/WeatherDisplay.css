@@ -1,0 +1,13 @@
+.weather-card {
+  width: 200px;
+  height: 100px;
+  background-color: white;
+  margin: 20px;
+  box-shadow: 2px 2px 4px gray; /*  First 2px - horizontal(right) shadow and second 2px - vertical(bottom) shadow. Third 4px - blur amount. */
+}
+
+.card-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
