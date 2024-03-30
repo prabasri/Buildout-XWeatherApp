@@ -30,7 +30,7 @@ export const WeatherDisplay = ({city}) => {
   return(
     <div>
       {!isLoading && weatherData.current && 
-        <div className="card-container">
+        <div className="weather-cards">
           <div className="weather-card">
             <h2>Temperature</h2>
             <p>{weatherData.current.temp_c}&deg;C</p> {/* HTML entity for degree */}
